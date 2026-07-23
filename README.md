@@ -138,6 +138,7 @@ The Chinese version (`zh`) will be:
 $$
 a + b = c
 $$
+
 这里的$a$、$b$、$c$是变量。
 ```
 
