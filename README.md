@@ -424,7 +424,7 @@ The `make deploy` command builds the project using the steps below.
 5. Convert selected notebooks (README.ipynb by default) to markdown (`.md`) and PDF (`.pdf`).
 6. Copy built notebooks, converted files, and required root settings and libraries into `product/rc-bootcamp_[LANG][MODE_SUFFIX]/`.
 
-`make deploy` builds all languages in `LANGUAGES` (default: `en ja`) and modes in `MODES` (default: `ex sol`), producing six output folders.
+`make deploy` builds all languages in `LANGUAGES` (default: `en ja zh`) and modes in `MODES` (default: `ex sol`), producing six output folders.
 To build a single language or mode, run `make [LANG]` or `make [LANG]_[MODE]` (e.g., `make en` or `make ja_ex`).
 
 You can include or exclude targets with `[LANG]_include` and `[LANG]_exclude` variables, which accept space-separated glob patterns for notebook filenames (without extensions).
